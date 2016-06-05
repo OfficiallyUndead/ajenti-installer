@@ -8,7 +8,12 @@
  - It also installs a few things that I find useful when managing my server
 
 ## To Use
- - Download the installer.sh file to a location of your choice
+ - Download the installer.sh & prep.sh to a location of your choice
+ - Use 'chmod +x prep.sh' to make the prep file executable
+ - Use 'sudo sh prep.sh' to run preperation
+ - Once finished do the following two commands to add Ajenti repo's
+  - 'sudo wget http://repo.ajenti.org/debian/key -O- | sudo apt-key add -'
+  - 'sudo echo "deb http://repo.ajenti.org/ng/debian main main ubuntu" | sudo tee -a /etc/apt/sources.list'
  - Use 'chmod +x installer.sh' to make the installer executable
  - Use 'sudo sh installer.sh' to start the installer
 
