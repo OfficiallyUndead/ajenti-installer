@@ -10,5 +10,10 @@
 ## To Use
  - Download the installer.sh file to a location of your choice
  - Use 'chmod +x installer.sh' to make the installer executable
- - Use 'sh installer.sh' to start the installer
- - You will be prompted to enter your root password (because the script is installing packages)
+ - Use 'sudo sh installer.sh' to start the installer
+
+## Notes
+ - Root is required to use this script
+ - I accept no responsibility for any damage you may do to your system by using this script
+ - You should ensure that precautions are taken after using this script to make you installation secure
+ - I do not recommend using Ajenti / Ajenti V for a production environment
